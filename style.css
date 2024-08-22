@@ -19,7 +19,7 @@ button{
     cursor: pointer;
 }
 .editor{
-    min-height: 343px;
+    min-height: 360px;
     border-radius: 4px;
     padding: 10px;
 }

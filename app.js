@@ -11,3 +11,11 @@ function execCommand (command ,value = null){
 boldBtn.addEventListener('click' , () => execCommand('bold') )
 itelicBtn.addEventListener('click' , () => execCommand ('italic'))
 underlineBtn.addEventListener('click', () => execCommand('underline'))
+
+function abc(){
+    setTimeout(function(){
+        alert("Please note: The editor will only operate on the selected text.")
+    },1000)
+
+}
+abc()
